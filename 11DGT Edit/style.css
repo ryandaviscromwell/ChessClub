@@ -1,0 +1,30 @@
+.item-a {
+    grid-area: header;
+    color: brown;
+    background-color: chartreuse;
+  }
+  .item-b {
+    grid-area: main;
+    color: chocolate;
+    background-color: darkorchid;
+  }
+  .item-c {
+    grid-area: sidebar;
+    color: darkblue;
+    background-color: darkred;
+  }
+  .item-d {
+    grid-area: footer;
+    color: darkorchid;
+    background-color: aquamarine;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
+  }
