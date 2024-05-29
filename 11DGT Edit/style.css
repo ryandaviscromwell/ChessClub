@@ -1,14 +1,23 @@
+body {
+  margin: 0px;
+  text-align: center;
+  
+}
+
 .item-a {
     grid-area: header;
     color: white;
     background-color: black;
     text-align: center;
+    
   }
   .item-e {
     grid-area: nav;
     color: white;
     background-color: white;
     padding-left: 10px;
+    text-align: center;
+    
   
   }
   .item-b {
@@ -16,14 +25,20 @@
     color: white;
     background-color: black;
     padding-left: 50px;
-    padding-right: 20px;
+    padding-right: 50px;
+    text-align: center;
+    
+    
+    
   }
   .item-c {
     grid-area: sidebar;
     color: white;
     background-color: rgb(34, 16, 2);
     padding-left: 50px;
-    padding-right: 20px;
+    padding-right: 50px;
+    text-align: center;
+   
   }
   .item-d {
     grid-area: footer;
@@ -31,6 +46,7 @@
     background-color: rgb(83, 48, 7);
     padding-left: 50px;
     text-align: center;
+   
   }
 
   .container {
@@ -39,11 +55,18 @@
     grid-template-rows: auto;
     grid-template-areas: 
       "header header header header"
-      "nav . . ."
+      "nav nav nav nav"
       "main main main sidebar"
       "footer footer footer footer";
+      margin: 0 auto;
+      width: 80%;
   }
   .icon {
     width: 20%;
+    margin: 40px;
+  }
+  
+  .e4 {
+    width: 200px;
     margin: 40px;
   }
