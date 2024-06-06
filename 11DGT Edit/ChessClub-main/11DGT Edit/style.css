@@ -49,7 +49,6 @@ body {
    
   }
 
-
   .container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -70,8 +69,4 @@ body {
   .e4 {
     width: 200px;
     margin: 40px;
-  }
-  .image {
-    width: 200px;
-    margin: 20px;
   }
