@@ -7,23 +7,21 @@ body {
 .item-a {
     grid-area: header;
     color: white;
-    background-color: black;
+    background-color: rgb(3, 2, 59);
     text-align: center;
     
   }
   .item-e {
     grid-area: nav;
-    color: white;
     background-color: white;
     padding-left: 10px;
     text-align: center;
-    
-  
+
   }
   .item-b {
     grid-area: main;
     color: white;
-    background-color: black;
+    background-color: rgb(11, 44, 163);
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
@@ -34,7 +32,7 @@ body {
   .item-c {
     grid-area: sidebar;
     color: white;
-    background-color: rgb(34, 16, 2);
+    background-color: rgb(62, 118, 223);
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
@@ -42,8 +40,8 @@ body {
   }
   .item-d {
     grid-area: footer;
-    color: rgb(228, 202, 132);
-    background-color: rgb(83, 48, 7);
+    color: black;
+    background-color: rgb(118, 171, 206);
     padding-left: 50px;
     text-align: center;
    
@@ -68,10 +66,15 @@ body {
   }
   
   .e4 {
-    width: 200px;
+    width: 80%;
     margin: 40px;
   }
   .image {
     width: 200px;
     margin: 20px;
   }
+  .piece {
+    width: 100px;
+    margin: 5px;
+  }
+  /* unvisited link */ a:link { color: red; } /* visited link */ a:visited { color: green; }
