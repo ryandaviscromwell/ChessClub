@@ -78,4 +78,8 @@ body {
     width: 100px;
     margin: 5px;
   }
+  .intro {
+    width: 55%;
+    margin: 10px;
+  }
   /* unvisited link */ a:link { color: red; } /* visited link */ a:visited { color: green; }
