@@ -17,6 +17,10 @@ body {
     background-color: white;
     padding-left: 10px;
     text-align: center;
+    list-style-type: none;
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
 
   }
   .item-b {
@@ -83,3 +87,29 @@ body {
     margin: 10px;
   }
   /* unvisited link */ a:link { color: red; } /* visited link */ a:visited { color: green; }
+  
+  ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: aqua;
+    text-align: center;
+    width: 300px;
+  }
+
+  li {
+    float: left;
+    width: 100px;
+  }
+
+  li a{
+    display: block;
+    padding: 8px;
+    background-color: rgb(12, 210, 236);
+    text-align: center;
+  }
+  /* Change the link color to white (black) on hover */
+li a:hover {
+  background-color: white
+}
